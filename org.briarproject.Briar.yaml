@@ -32,15 +32,12 @@ modules:
         - install -D briar.sh /app/bin/briar
         - install -D briar.jar /app/bin/briar.jar
         - install -D org.briarproject.Briar.desktop /app/share/applications/org.briarproject.Briar.desktop
-        - install -D org.briarproject.Briar.appdata.xml /app/share/metainfo/org.briarproject.Briar.appdata.xml
+        - install -D org.briarproject.Briar.metainfo.xml /app/share/metainfo/org.briarproject.Briar.metainfo.xml
         - install -D org.briarproject.Briar.svg /app/share/icons/hicolor/scalable/apps/briar.svg
 
     sources:
       - type: file
         path: briar.sh
-
-      - type: file
-        path: org.briarproject.Briar.appdata.xml
 
       # The .desktop file could be extracted from the released deb package
       - type: file
@@ -49,7 +46,7 @@ modules:
       - type: file
         url: https://desktop.briarproject.org/jars/linux/briar-desktop-linux.jar
         dest-filename: briar.jar
-        sha256: 7e806486381222322cf5a8c7b366c17385ad3035fe8486c370f1af7b7fcf5239
+        sha256: 1f31a0e0e3a1364172f8bfbf1d24bc34d4fe654fba83168d728ed0fb379ea591
         x-checker-data:
           type: html
           url: https://desktop.briarproject.org/jars/linux/briar-desktop-linux.jar
@@ -60,4 +57,9 @@ modules:
         url: https://code.briarproject.org/briar/briar-desktop/-/raw/38723c494a59ec5db24d017341be33af4204c96d/src/main/resources/images/logo_circle.svg?inline=false
         dest-filename: org.briarproject.Briar.svg
         sha256: 95400a8578272600e0b350c4b664c09631c737ce11e750faefe27473460d7923
+
+      - type: file
+        url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.2.0-beta/src/appResources/linux/org.briarproject.Briar.metainfo.xml
+        dest-filename: org.briarproject.Briar.metainfo.xml
+        sha256: 96dbb546cea8de1be1beeb1b221dfce0a152f9b9428c5b01c8b7b4eabe5deb84
 
