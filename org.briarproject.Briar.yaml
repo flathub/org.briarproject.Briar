@@ -29,11 +29,11 @@ modules:
   - name: briar-binary
     buildsystem: simple
     build-commands:
-        - install -D briar.sh /app/bin/briar
-        - install -D briar.jar /app/bin/briar.jar
-        - install -D org.briarproject.Briar.desktop /app/share/applications/org.briarproject.Briar.desktop
-        - install -D org.briarproject.Briar.metainfo.xml /app/share/metainfo/org.briarproject.Briar.metainfo.xml
-        - install -D org.briarproject.Briar.svg /app/share/icons/hicolor/scalable/apps/briar.svg
+      - install -D briar.sh /app/bin/briar
+      - install -D briar.jar /app/bin/briar.jar
+      - install -D org.briarproject.Briar.desktop /app/share/applications/org.briarproject.Briar.desktop
+      - install -D org.briarproject.Briar.metainfo.xml /app/share/metainfo/org.briarproject.Briar.metainfo.xml
+      - install -D org.briarproject.Briar.svg /app/share/icons/hicolor/scalable/apps/briar.svg
 
     sources:
       - type: file
@@ -44,7 +44,7 @@ modules:
         path: org.briarproject.Briar.desktop
 
       - type: file
-        url: https://desktop.briarproject.org/jars/linux/briar-desktop-linux.jar
+        url: https://desktop.briarproject.org/jars/linux/0.2.0-beta/briar-desktop-linux-0.2.0-beta.jar
         dest-filename: briar.jar
         sha256: 1f31a0e0e3a1364172f8bfbf1d24bc34d4fe654fba83168d728ed0fb379ea591
         x-checker-data:
