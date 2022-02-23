@@ -49,9 +49,9 @@ modules:
         sha256: 1f31a0e0e3a1364172f8bfbf1d24bc34d4fe654fba83168d728ed0fb379ea591
         x-checker-data:
           type: html
-          url: https://desktop.briarproject.org/jars/linux/briar-desktop-linux.jar
-          version-pattern: (\d+)
-          url-template: https://desktop.briarproject.org/jars/linux/briar-desktop-$version-linux.jar
+          url: https://briarproject.org/download-briar-desktop/
+          version-pattern: briar-desktop-linux-(.*).jar
+          url-template: https://desktop.briarproject.org/jars/linux/$version/briar-desktop-linux-$version.jar
 
       - type: file
         url: https://code.briarproject.org/briar/briar-desktop/-/raw/38723c494a59ec5db24d017341be33af4204c96d/src/main/resources/images/logo_circle.svg?inline=false
@@ -62,4 +62,9 @@ modules:
         url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.2.0-beta/src/appResources/linux/org.briarproject.Briar.metainfo.xml
         dest-filename: org.briarproject.Briar.metainfo.xml
         sha256: 96dbb546cea8de1be1beeb1b221dfce0a152f9b9428c5b01c8b7b4eabe5deb84
+        x-checker-data:
+          type: html
+          url: https://briarproject.org/download-briar-desktop/
+          version-pattern: briar-desktop-linux-(.*).jar
+          url-template: https://code.briarproject.org/briar/briar-desktop/-/raw/$version/src/appResources/linux/org.briarproject.Briar.metainfo.xml
 
