@@ -13,6 +13,9 @@ finish-args:
   # I'll suggest to use XDG_CONFIG_HOME
   - --persist=~/.briar
   - --filesystem=~/.briar:create
+  # https://github.com/flathub/org.briarproject.Briar/issues/5#issuecomment-1069120636
+  - --persist=~/.java/.userPrefs/org/briarproject/briar
+  - --filesystem=~/.java/.userPrefs/org/briarproject/briar:create
   - --filesystem=xdg-download
   - --env=PATH=/usr/bin:/app/bin:/app/jre/bin
   - --env=JAVA_HOME=/app/jre
