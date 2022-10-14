@@ -68,5 +68,5 @@ modules:
           type: html
           url: https://briarproject.org/download-briar-desktop/
           version-pattern: briar-desktop-linux-(.*).jar
-          url-template: https://code.briarproject.org/briar/briar-desktop/-/raw/$version/src/appResources/linux/org.briarproject.Briar.metainfo.xml
+          url-template: https://code.briarproject.org/briar/briar-desktop/-/raw/$version/briar-desktop/src/appResources/linux/org.briarproject.Briar.metainfo.xml
 
