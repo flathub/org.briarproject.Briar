@@ -46,9 +46,9 @@ modules:
         path: org.briarproject.Briar.desktop
 
       - type: file
-        url: https://desktop.briarproject.org/jars/linux/0.3.1-beta/briar-desktop-linux-0.3.1-beta.jar
+        url: https://desktop.briarproject.org/jars/linux/0.4.0-beta/briar-desktop-linux-0.4.0-beta.jar
         dest-filename: briar.jar
-        sha256: 841dc198101e6e8aa6b5ab6bd6b80e9c6b2593cb88bc3b2592f947baf963389d
+        sha256: ef37885ac74fbd138719a7f98a0a1d959b2ce86a30de4a7a3d7f900339b1327c
         x-checker-data:
           type: html
           url: https://briarproject.org/download-briar-desktop/
