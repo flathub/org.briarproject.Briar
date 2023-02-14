@@ -1,7 +1,7 @@
 app-id: org.briarproject.Briar
 runtime: org.gnome.Platform
 runtime-version: '43'
-sdk: org.freedesktop.Sdk
+sdk: org.freedesktop.Sdk//22.08
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
 command: briar
