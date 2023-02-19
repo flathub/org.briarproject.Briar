@@ -8,6 +8,7 @@ Icon=briar
 TryExec=briar
 Exec=briar %f
 Terminal=false
+X-GNOME-UsesNotifications=true
 # Category entry according to:
 # https://specifications.freedesktop.org/menu-spec/menu-spec-1.0.html
 Categories=Network;Chat;P2P;InstantMessaging
