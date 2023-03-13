@@ -63,9 +63,9 @@ modules:
         path: org.briarproject.Briar.desktop
 
       - type: file
-        url: https://desktop.briarproject.org/jars/linux/0.4.0-beta/briar-desktop-linux-0.4.0-beta.jar
+        url: https://desktop.briarproject.org/jars/linux/0.4.2-beta/briar-desktop-linux-0.4.2-beta.jar
         dest-filename: briar.jar
-        sha256: ef37885ac74fbd138719a7f98a0a1d959b2ce86a30de4a7a3d7f900339b1327c
+        sha256: 24c8f9f3f5851ec8c14515fef5ff040ab88940d3529739885bd16a66448635aa
         x-checker-data:
           type: html
           url: https://briarproject.org/download-briar-desktop/
@@ -78,9 +78,9 @@ modules:
         sha256: 95400a8578272600e0b350c4b664c09631c737ce11e750faefe27473460d7923
 
       - type: file
-        url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.4.0-beta/briar-desktop/src/appResources/linux/org.briarproject.Briar.metainfo.xml
+        url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.4.2-beta/briar-desktop/src/appResources/linux/org.briarproject.Briar.metainfo.xml
         dest-filename: org.briarproject.Briar.metainfo.xml
-        sha256: 1ad35ec34043ff923cdb9890c961fffced5834f771ad847c3f06260455e91edd
+        sha256: 43bbf00772e6d891727fedbe044476f5b8d23bff1f2bbbb19656435652eaf9fc
         x-checker-data:
           type: html
           url: https://briarproject.org/download-briar-desktop/
