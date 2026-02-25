@@ -28,7 +28,7 @@ modules:
     buildsystem: simple
     build-commands:
       - /usr/lib/sdk/openjdk17/install.sh
-    
+
   - name: briar-binary
     buildsystem: simple
     build-commands:
@@ -47,9 +47,9 @@ modules:
         path: org.briarproject.Briar.desktop
 
       - type: file
-        url: https://desktop.briarproject.org/jars/linux/0.6.4-beta/briar-desktop-linux-0.6.4-beta.jar
+        url: https://desktop.briarproject.org/jars/linux/0.6.5-beta/briar-desktop-linux-0.6.5-beta.jar
         dest-filename: briar.jar
-        sha256: 4bb3badb94966e08b889bcbbe907b7efb3468b0e2bf7e56a81087c91c94ac0ca
+        sha256: 60316f33a1227077bab3b4834e2291c920933bd214c03ac4b4edfbddb6af7e6c
         x-checker-data:
           type: html
           url: https://briarproject.org/download-briar-desktop/
@@ -62,9 +62,9 @@ modules:
         sha256: 95400a8578272600e0b350c4b664c09631c737ce11e750faefe27473460d7923
 
       - type: file
-        url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.6.4-beta/briar-desktop/src/appResources/linux/org.briarproject.Briar.metainfo.xml
+        url: https://code.briarproject.org/briar/briar-desktop/-/raw/0.6.5-beta/briar-desktop/src/appResources/linux/org.briarproject.Briar.metainfo.xml
         dest-filename: org.briarproject.Briar.metainfo.xml
-        sha256: 72c026f6ae1069e12195b725be294e9e30baa5b7cb48b991737fde600022956e
+        sha256: 0e5471945fea64b93ca63a5eb4e6411d2859e7a50194af03418571bb72825871
         x-checker-data:
           type: html
           url: https://briarproject.org/download-briar-desktop/
